@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Assignment_Folders/Using_Data_Entities_and_Wizards/DataEntitiesWizards/.vs/DataEntitiesWizards/v15/Server/sqlite3/db.lock
