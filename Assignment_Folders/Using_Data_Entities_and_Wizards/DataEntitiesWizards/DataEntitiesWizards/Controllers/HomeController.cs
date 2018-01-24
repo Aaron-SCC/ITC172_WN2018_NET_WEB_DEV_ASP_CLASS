@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DataEntitiesWizards.Models;
 
 namespace DataEntitiesWizards.Controllers
 {
@@ -10,7 +11,8 @@ namespace DataEntitiesWizards.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            Community_AssistEntities db = new Community_AssistEntities();
+            return View(db.GrantTypes.ToList());
         }
 
         public ActionResult About()
